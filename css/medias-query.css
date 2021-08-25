@@ -1,37 +1,46 @@
-@media only screen and (max-width: 425px){ 
-    .right-side img, nav .links {
-        display: none;       
-      }
+@media only screen and (max-width: 600px) {
+  .right-side img,
+  nav .links {
+    display: none;
+  }
 
-    nav .logo{
-        display: flex;
-        font-size: 7vw;    
-    }
+  nav .logo {
+    display: flex;
+    font-size: 7vw;
+  }
 
-    nav{
-        margin-bottom: 1.2rem; 
-    }
+  nav {
+    margin-bottom: 1.2rem;
+  }
 
-    footer{
-        margin-top: 1em;
-    }
+  .container .left-side {
+    width: 100%;
+  }
 
-    .container{        
-        border: 1px solid red;
-    }
+  .left-side h1 {
+    font-size: 2.8em;
+  }
 
-    .container .left-side{
-        border: 1px solid red;
-        width: 100%;
-    }
+  .left-side button {
+    font-size: 5vw;
+    background-color: transparent;
+    padding: 1.5vw 32vw;
+  }
 
-    .left-side h1{        
-        font-size: 2.8em;    
-    }
+  footer {
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: 4rem;
+  }
 
-    .left-side button{
-        font-size: 5vw;    
-        background-color: transparent;
-        padding: 1.5vw 32vw;   
-    }
+  footer h1,
+  p {
+    padding: 1.5vw 0;
+  }
+
+  button:hover {
+    color: #0795e7;
+    background-color: #f9f9f9;
+  }
 }
