@@ -13,6 +13,10 @@
     margin-bottom: 1.2rem;
   }
 
+  section {
+    width: 90%;
+  }
+
   .container .left-side {
     width: 100%;
   }
